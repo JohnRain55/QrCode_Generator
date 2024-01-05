@@ -23,5 +23,5 @@ title.place(x=50, y=200)
 entry = Entry(root, width=28, font="arial 15")
 entry.place(x=50, y=250)
 
-Button(root, text="Generate", width=20, height=2, bg="white", fg="dark red", command=generate).place(x=50, y=300)
+Button(root, text="Generate", width=20, height=2, bg="white", fg="red", command=generate).place(x=50, y=300)
 root.mainloop()
